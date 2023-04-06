@@ -13,6 +13,8 @@ return {
         -- docker
         "dockerls",
         "docker_compose_language_service",
+        -- markdown
+        "marksman",
       },
     },
   },
@@ -22,6 +24,8 @@ return {
     -- overrides `require("mason-null-ls").setup(...)`
     opts = {
       ensure_installed = {
+        -- general
+        "prettier",
         -- lua
         "stylua",
         -- python
