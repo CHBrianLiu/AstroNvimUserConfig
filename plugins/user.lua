@@ -13,4 +13,13 @@ return {
     "ThePrimeagen/refactoring.nvim",
     opts = {},
   },
+  -- copy remote git link quickly.
+  {
+    "ruifm/gitlinker.nvim",
+    opts = {
+      mappings = "<leader>gy",
+    },
+    -- load by default.
+    lazy = false,
+  },
 }
