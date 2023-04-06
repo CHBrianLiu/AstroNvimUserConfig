@@ -22,4 +22,6 @@ return {
     -- load by default.
     lazy = false,
   },
+  -- colorschemes
+  { "catppuccin/nvim", name = "latte" },
 }
