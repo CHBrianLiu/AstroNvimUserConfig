@@ -28,6 +28,7 @@ return {
   t = {
     -- setting a mapping to false will disable it
     -- ["<esc>"] = false,
+    ["jk"] = { "<c-\\><c-n>", desc = "Return to Normal mode" },
   },
   v = {
     -- gitlinker
