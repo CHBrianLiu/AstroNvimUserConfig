@@ -15,6 +15,9 @@ return {
         "docker_compose_language_service",
         -- markdown
         "marksman",
+        -- go
+        "golangci_lint_ls",
+        "gopls",
       },
     },
   },
@@ -31,6 +34,8 @@ return {
         -- python
         "black",
         "flake8",
+        -- go
+        "golangci-lint",
       },
     },
   },
@@ -41,6 +46,8 @@ return {
       ensure_installed = {
         -- python
         "python",
+        -- go
+        "delve",
       },
     },
   },

@@ -23,5 +23,18 @@ return {
     lazy = false,
   },
   -- colorschemes
-  { "catppuccin/nvim", name = "latte" },
+  {
+    "catppuccin/nvim",
+    name = "latte",
+  },
+  -- command pallete
+  {
+    "mrjones2014/legendary.nvim",
+    lazy = false,
+    opts = {
+      which_key = {
+        auto_register = true,
+      },
+    },
+  },
 }
