@@ -18,6 +18,8 @@ return {
         -- go
         "golangci_lint_ls",
         "gopls",
+        -- json
+        "jsonls",
       },
     },
   },
@@ -34,6 +36,7 @@ return {
         -- python
         "black",
         "flake8",
+        "isort",
         -- go
         "golangci-lint",
       },
