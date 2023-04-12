@@ -41,4 +41,18 @@ return {
     "tamago324/nlsp-settings.nvim",
     lazy = false,
   },
+  {
+    "TimUntersberger/neogit",
+    lazy = false,
+    dependencies = {
+      {
+        "sindrets/diffview.nvim",
+      },
+    },
+    opts = {
+      integrations = {
+        diffview = true,
+      },
+    },
+  },
 }
