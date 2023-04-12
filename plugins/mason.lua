@@ -20,6 +20,8 @@ return {
         "gopls",
         -- json
         "jsonls",
+        -- html
+        "html",
       },
     },
   },
