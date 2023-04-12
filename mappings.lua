@@ -24,6 +24,11 @@ return {
     -- ["<C-s>"] = { ":w!<cr>", desc = "Save File" },  -- change description but the same command
     -- gitlinker
     ["<leader>gy"] = { name = "Copy Git link" },
+    -- neogit
+    ["<leader>gg"] = {
+      "<cmd>Neogit<cr>",
+      desc = "Toggle Neogit",
+    },
   },
   t = {
     -- setting a mapping to false will disable it
