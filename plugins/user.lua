@@ -41,6 +41,7 @@ return {
     "tamago324/nlsp-settings.nvim",
     lazy = false,
   },
+  -- neogit
   {
     "TimUntersberger/neogit",
     lazy = false,
@@ -54,5 +55,16 @@ return {
         diffview = true,
       },
     },
+  },
+  -- github integration
+  {
+    "pwntester/octo.nvim",
+    opts = {},
+    lazy = false,
+  },
+  -- quick jump
+  {
+    "unblevable/quick-scope",
+    lazy = false,
   },
 }
