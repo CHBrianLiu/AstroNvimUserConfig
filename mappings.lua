@@ -29,6 +29,11 @@ return {
       "<cmd>Neogit<cr>",
       desc = "Toggle Neogit",
     },
+    -- more telescope
+    ["<leader>fl"] = {
+      function() require("telescope.builtin").jumplist() end,
+      desc = "recent jumps",
+    },
   },
   t = {
     -- setting a mapping to false will disable it
